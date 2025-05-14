@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="script"href="script.js">
+</head>
+<body>
+  <header>
+    <!--=========SIDEBAR==========-->
+    <div class="res">
+    <input type="checkbox" name="check" id="check">
+    <div class="contain">
+    <label for="check">
+        <span id="times">&#10006;</span>
+        <span id="bars">&#9776;</span>
+    </label>
+    <!--<div class="head">menu</div>-->
+    <ol>
+        <li><a href="https://www.myntra.com/men-topwear?f=Categories%3ABlazers%2CJackets%2CKurtas%2CSweaters">Men</a></li>
+        <li><a href="https://www.myntra.com/fusion-wear">Women</a></li>
+        <li><a href="https://www.myntra.com/kids?f=Gender%3Aboys%2Cboys%20girls&plaEnabled=false">Kids</a></li>
+        <li><a href="https://www.myntra.com/home-furnishing?f=Categories%3AAir%20Freshener%2CAroma%20Oils%2CArtificial%20Flowers%20and%20Plants%2CBins%2CCandle%20Holders%2CCandles%2CCeiling%20Lamps%2CClocks%2CDecals%20and%20Stickers%2CDecorative%20Bowls%2CDecorative%20Magnets%2CFestive%20Decor%2CFloor%20Lamps%2CFountains%2CGarden%20Accessories%2CHandheld%20Air%20Fresheners%2CHome%20Fragrance%20Set%2CHome%20Fragrances%2CKey%20Holders%2CLaptop%20Table%2CMirrors%2COutdoor%20Lamps%2CPhoto%20Albums%2CPhoto%20Frames%2CPlanters%2CPooja%20Essentials%2CPotpourri%2CShowpieces%2CString%20Lights%2CVase%20Fillers%2CVases%2CWall%20Art%2CWall%20Decor%2CWall%20Lamps%2CWall%20Shelves%2CWater%20Bottle%2CWindchimes">Home & Living</a></li>
+        <li><a href="https://www.myntra.com/makeup">Beauty</a></li>
+    </ol>
+</div></div>
+<!--================NAVBAR==========-->
+    <div class="nav">
+      <div class="logo">
+        <a href="#"><img src="logo-myntra-41466.png" alt="logo"></a>
+      </div>
+      <div class="first">
+        <a href=""https://www.myntra.com/men-topwear?f=Categories%3ABlazers%2CJackets%2CKurtas%2CSweaters"><li>MEN</li>
+        </a>
+        <a href="#"><li>WOMEN</li>
+        </a>
+        <a href="#"><li>KIDS</li>
+        </a>
+        <a href="#"><li>HOME & LIVING</li>
+        </a>
+        <a href="#"><li>BEAUTY</li>
+        </a>
+      </div>
+      <div class="middle">
+        <input type="search" name="search" id="search" placeholder="Search for product"><button>Search</button>
+      </div>
+      <div class="last">
+        <a href="https://www.myntra.com/login?referer=https://www.myntra.com/men-topwear?f=Categories%3ABlazers%2CJackets%2CKurtas%2CSweaters"><img src="profile.png" alt="profile"></a>
+        <a href="https://www.myntra.com/wishlist"><img src="icons8-heart-50.png" alt="wishlist"></a>
+        <a href="https://www.myntra.com/checkout/cart"><img src="shopping-bag.png" alt="shopping-bag"></a>
+      </div>
+    </div>
+  </header>
+  <!--===================ModelCard==========-->
+  <div id="modelBox">
+    <img class="bg" src="/images/bg.jpg" alt="bg">
+    <div class="offer-text">
+        <h2>Get Up To 50% Off</h2>
+        <small>on all products</small>
+        <p>Huge Range Of Products On Great Deals & Discounts. Get The Best Of Fashion Only On Myntra.</p>
+    </div>
+    <img class="cross" src="/images/pngwing.com.png" alt="cross" onclick="closeModel()">
+</div>
+
+  <!--================SECTION -1================-->
+  <section id="sec-1">
+    <div class="carousel-container">
+  <div class="carousel">
+    <img src="img-1.jpg" alt="Image 1">
+    <img src="img-3.jpg" alt="Image 2">
+    <img src="img-2.jpg" alt="Image 3">
+  </div>
+  <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+  <a class="next" onclick="changeSlide(1)">&#10095;</a>
+</div>
+</section>
+<section id="sec-2">
+  <div class="head">
+  <h2>CRAZY DEALS</h2>
+  <a href="#" class="btn">View All &#10095;</a></div>
+  <div class="container-1">
+    <div class="items">
+      <a href="#"><img src="/images/pexels-ray-piedra-1478442.jpg" alt="shoes"></a>
+      <div class="txt"><p>Trendy Sports Shoes</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items">
+      <a href="#"><img src="/images/irene-kredenets-DDqxX0-7vKE-unsplash.jpg" alt="sandel"></a>
+      <div class="txt"><p>Trendy Summer Sandals</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items">
+      <a href="#"><img src="/images/joshua-rawson-harris-dN67hPE5KWY-unsplash.jpg" alt="Hoddies"></a>
+      <div class="txt"><p>Trendy Cool Hoddies</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items">
+      <a href="#"><img src="/images/khadeeja-yasser-msFZE7d9KB4-unsplash.jpg" alt="Bedsheets"></a>
+      <div class="txt"><p>Bedsheets Collection</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items">
+      <a href="#"><img src="/images/mike-von-aKXCtDDgtRw-unsplash.jpg" alt="Comfy"></a>
+      <div class="txt"><p>Latest Comfy Collections</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items">
+      <a href="#"><img src="/images/mohammad-metri-E-0ON3VGrBc-unsplash.jpg" alt="pump Heels"></a>
+      <div class="txt"><p>Pump Heels</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items">
+      <a href="#"><img src="/images/neauthy-skincare-8ZKwW-2SR28-unsplash.jpg" alt="Cosmetic"></a>
+      <div class="txt"><p>Cosmetic</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items">
+      <a href="#"><img src="/images/pexels-ivan-ananiev-16495779.jpg" alt="jackets"></a>
+      <div class="txt"><p>Leather Jackets</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items">
+      <a href="#"><img src="/images/pexels-mart-production-9558577.jpg" alt="Trendy Tees"></a>
+      <div class="txt"><p>New Trendy Tees</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items">
+      <a href="#"><img src="/images/pexels-monstera-5384423.jpg" alt="T-Shirts"></a>
+      <div class="txt"><p>Oversized T-Shirts</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+  </div>
+  <div class="container-2">
+    <div class="items-2">
+      <a href="#"><img src="/images/brown-leather-shoes.jpg" alt="Latest shoes"></a>
+      <div class="txt"><p>New Latest Shoes</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items-2">
+      <a href="#"><img src="/images/pexels-teddy-yang-16485635.jpg" alt="Bagpacks"></a>
+      <div class="txt"><p>Bagpacks Collection</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items-2">
+      <a href="#"><img src="/images/pexels-vinc-10005247.jpg" alt="Classic Look"></a>
+      <div class="txt"><p>Trendy Classic Look</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items-2">
+      <a href="#"><img src="/images/trinh-minh-th-s7TceQs70xs-unsplash.jpg" alt="Look Flats"></a>
+      <div class="txt"><p>New Look Flats</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items-2">
+      <a href="#"><img src="/images/wallpaperflare.com_wallpaper(3).jpg" alt="Regular tshirt"></a>
+      <div class="txt"><p>Regular T-Shirts</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items-2">
+      <a href="#"><img src="/images/jackets.jpg" alt="Trendy jackets"></a>
+      <div class="txt"><p>Trendy Jackets</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items-2">
+      <a href="#"><img src="/images/slippers.webp" alt="slippers"></a>
+      <div class="txt"><p>Slippers</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items-2">
+      <a href="#"><img src="/images/sofa.jpg" alt="sofa Collection"></a>
+      <div class="txt"><p>Sofa Collection</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items-2">
+      <a href="#"><img src="/images/formal.jpg" alt="Trendy formal Shoes"></a>
+      <div class="txt"><p>Trendy Formal Shoes</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+  </div>
+  <div class="box-2">
+    <h2>TOP BRANDS AT BEST</h2>
+    <div class="container-1">
+      <div class="items">
+        <a href="https://www.myntra.com/crocs-women?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-crocs-women&rawQuery=Crocs%20Women"><img src="/images/CROCS.jpg"alt="CROCS"></a>
+      <div class="txt-2"><p>CROCS</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items">
+        <a href="https://www.myntra.com/nike-tshirts-men?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-nike-tshirts-men&rawQuery=Nike%20Tshirts%20Men"><img src="/images/NIKE.jpg" alt="NIKE"></a>
+      <div class="txt-2"><p>NIKE</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items">
+        <a href="https://www.myntra.com/puma-tshirts-men?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-puma-tshirts-men&rawQuery=Puma%20Tshirts%20Men"><img src="/images/PUMA.jpg" alt="PUMA"></a>
+      <div class="txt-2"><p>PUMA</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items">
+        <a href="https://www.myntra.com/vishudh-dress?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-vishudh-dress&rawQuery=Vishudh%20Dress"><img src="/images/VISH.jpg" alt="VISHUDH"></a>
+      <div class="txt-2"><p>VISHUDH</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items">
+        <a href="https://www.myntra.com/libas-kurta-sets?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-libas-kurta-sets&rawQuery=Libas%20Kurta%20Sets"><img src="/images/LIBAS.jpg" alt="LIBAS"></a>
+      <div class="txt-2"><p>LIBAS</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items">
+        <a href="https://www.myntra.com/tommy-hilfiger-shirts?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-tommy-hilfiger-shirts&rawQuery=Tommy%20Hilfiger%20Shirts"><img src="/images/TOMMY.jpg" alt="TOMMY HILFIGER"></a>
+      <div class="txt-2"><p>TOMMY HILFIGER</p>
+        <h4>Up To. <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items">
+        <a href="https://www.myntra.com/hrx-tshirts?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-hrx-tshirts&rawQuery=Hrx%20Tshirts"><img src="/images/HRX.png" alt="HRX"></a>
+      <div class="txt-2"><p>HRX</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+    </div>
+    <div class="container-2">
+      <div class="items-2">
+        <a href="https://www.myntra.com/denim-jackets?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-denim-jackets&rawQuery=Denim%20Jackets"><img src="/images/DENIM.jpg" alt="ONLY"></a>
+      <div class="txt-2"><p>ONLY</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items-2">
+        <a href="https://www.myntra.com/wrogn-jeans?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-wrogn-jeans&rawQuery=Wrogn%20Jeans"><img src="/images/WRONG.jpg" alt="WROGN"></a>
+      <div class="txt-2"><p>WROGN</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items-2">
+        <a href="https://www.myntra.com/jeans-for-men?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-jeans-for-men&rawQuery=Jeans%20For%20Men"><img src="/images/JEANS.webp" alt="NORTH RIVER"></a>
+      <div class="txt-2"><p>NORTH RIVER</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items-2">
+        <a href="https://www.myntra.com/polo-collar-tshirts?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-polo-collar-tshirts&rawQuery=Polo%20Collar%20Tshirts"><img src="/images/POLO.jpg" alt="us POLO"></a>
+      <div class="txt-2"><p>US POLO</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items-2">
+        <a href="https://www.myntra.com/biba-kurtas?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-biba-kurtas&rawQuery=Biba%20Kurtas"><img src="/images/BIBA.jpg" alt="BIBA"></a>
+      <div class="txt-2"><p>BIBA</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items-2">
+        <a href="https://www.myntra.com/roadster-shirts?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-roadster-shirts&rawQuery=Roadster%20Shirts"><img src="/images/ROAD.jpg" alt="ROADSTER"></a>
+      <div class="txt-2"><p>ROADSTER</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items-2">
+        <a href="https://www.myntra.com/virgio-tops?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-virgio-tops&rawQuery=Virgio%20Tops"><img src="/images/VERO.jpg" alt="VERO MODA"></a>
+      <div class="txt-2"><p>VERO MODA</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="sec-3">
+  <h2>CATEGORIES TO BAG</h2>
+  <div class="container-3">
+    <div class="box-a">
+      <div class="card">
+        <div class="item-a">
+          <a href="https://www.myntra.com/beauty-kit?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-beauty-kit&rawQuery=Beauty%20Kit"><img src="/images/beauty.jpg" alt="beauty"></a>
+        </div>
+        <h4>Beauty</h4>
+      </div>
+      <div class="card">
+        <div class="item-a">
+          <a href="https://www.myntra.com/tshirts-for-men?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-tshirts-for-men&rawQuery=Tshirts%20For%20Men"><img src="/images/tshirt.jpg" alt="tshirt"></a>
+        </div>
+        <h4>T-Shirts</h4>
+      </div>
+      <div class="card">
+        <div class="item-a">
+          <a href="https://www.myntra.com/jeans-for-men?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-jeans-for-men&rawQuery=Jeans%20For%20Men"><img src="/images/jeans.jpg" alt="jeans"></a>
+        </div>
+        <h4>Jeans</h4>
+      </div>
+      <div class="card">
+        <div class="item-a">
+          <a href="https://www.myntra.com/jewellery-accessories?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-jewellery-accessories&rawQuery=Jewellery%20Accessories"><img src="/images/jew.jpg" alt="Jewellery"></a>
+        </div>
+        <h4>Jewellery</h4>
+      </div>
+      <div class="card">
+        <div class="item-a">
+          <a href="https://www.myntra.com/ethnic-wear-for-teen-girls?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-ethnic-wear-for-teen-girls&rawQuery=Ethnic%20Wear%20For%20Teen%20Girls"><img src="/images/teen.jpg" alt="Teen Wear"></a>
+        </div>
+        <h4>Teen Wear</h4>
+      </div>
+      <div class="card">
+        <div class="item-a">
+          <a href="https://www.myntra.com/trousers-for-men?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-trousers-for-men&rawQuery=Trousers%20For%20Men"><img src="/images/trousers.jpg" alt="trousers"></a>
+        </div>
+        <h4>Trousers</h4>
+      </div>
+    </div>
+    <div class="box-b">
+      <div class="card-b">
+        <div class="item-b">
+          <a href="https://www.myntra.com/handbags-women?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-handbags-women&rawQuery=Handbags%20Women"><img src="/images/bag.jpg" alt="Handbags"></a>
+        </div>
+        <h4>Hand Bag</h4>
+      </div>
+      <div class="card-b">
+        <div class="item-b">
+          <a href="https://www.myntra.com/saree-for-women?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-saree-for-women&rawQuery=Saree%20For%20Women"><img src="/images/saree.jpg" alt="New saree"></a>
+        </div>
+        <h4>New Saree</h4>
+      </div>
+      <div class="card-b">
+        <div class="item-b">
+          <a href="https://www.myntra.com/infant-girls?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-infant-girls&rawQuery=Infant%20Girls"><img src="/images/infant.jpg" alt="infant Essentials"></a></div>
+        <h4>Infant Essentials</h4>
+      </div>
+      <div class="card-b">
+        <div class="item-b">
+          <a href="https://www.myntra.com/shoes-for-women?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-shoes-for-women&rawQuery=Shoes%20For%20Women"><img src="/images/shoes.jpg" alt="Sports shoes"></a>
+        </div>
+        <h4>Sports Shoes</h4>
+      </div>
+      <div class="card-b">
+        <div class="item-b">
+          <a href="https://www.myntra.com/shirts-for-men?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-shirts-for-men&rawQuery=Shirts%20For%20Men"><img src="/images/kurta.jpg" alt="kurta"></a>
+        </div>
+        <h4>Kurta</h4>
+      </div>
+      <div class="card-b">
+        <div class="item-b">
+          <a href="https://www.myntra.com/shirts-for-men?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-shirts-for-men&rawQuery=Shirts%20For%20Men"><img src="/images/shirts.jpg" alt="shirts"></a>
+        </div>
+        <h4>Shirts</h4>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="sec-4">
+  <div class="container-4">
+    <div class="sec-a">
+      <h3>ONLINE SHOPPING</h3>
+      <p>Men</p>
+      <p>Women</p>
+      <p>Kids</p>
+      <p>Home & Living</p>
+      <p>Beauty</p>
+      <p>Gift Cards</p>
+    </div>
+    <div class="sec-b">
+      <h3>CUSTOMER POLICIES</h3>
+      <p>Contact Us</p>
+      <p>FAQ</p>
+      <p>T&C</p>
+      <p>Terms Of Use</p>
+      <p>Track Orders</p>
+      <p>Shipping</p>
+      <p>Returns</p>
+    </div>
+    <div class="sec-c">
+      <h3>USEFUL LINKS</h3>
+      <p>Blog</p>
+      <p>Careers</p>
+      <p>Site Map</p>
+      <p>Corporate Information</p>
+      <p>Whitehat</p>
+    </div>
+  </div>
+  <div class="container-5">
+    <h3>POPULAR SEARCHES</h3>
+    <a href="https://www.myntra.com/?utm_source=dms_google&utm_medium=searchbrand_cpc&utm_campaign=dms_google_searchbrand_cpc_Search_Brand_Myntra_Brand_India_BM_TROAS_SOK_New&gad_source=1&gclid=EAIaIQobChMI0oD85oTUjAMV8RODAx3opRKeEAAYASAAEgK97_D_BwE">
+      <p>
+        Makeup | Dresses For Girls | T-Shirts | Headphones | Babydolls | Blazers For Men | Handbags | Ladies Watches | Bags | Sport Shoes | Reebok Shoes | Puma Shoes |
+        </p>
+        <p>
+        Boxers | Wallets | Tops | Earrings | Fastrack Watches | Kurtis | Nike Smart Watches | Titan Watches | Designer Blouse | Gowns | Rings | Cricket Shoes | Forever 21 | Eye |
+        </p>
+        <p>
+        Makeup | Photo Frames | Punjabi Suits | Bikini | Myntra Fashion Show | Lipstick | Saree | Watches | Dresses | Lehenga | Nike Shoes | Goggles | Bras | Suit | Chinos | Shoes |
+      </p>
+      <p>
+        Adidas Shoes | Woodland Shoes | Jewellery | Designers Sarees
+      </p>
+    </a>
+  </div>
+  <div class="txt-3">
+  <p>In case of any concern, <a href="https://www.myntra.com/contactus">Contact Us</a></p>
+  <p class="end">&copy; 2023 www.myntra.com. All rights reserved.</p>
+  </div>
+</section>
+<script src="script.js">
+</script>
+</body>
+</html>
